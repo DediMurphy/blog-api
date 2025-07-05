@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/dedimurphy/fast-campus/internal/configs"
-	"github.com/dedimurphy/fast-campus/internal/model/memberships"
+	"github.com/dedimurphy/blog-api/internal/configs"
+	"github.com/dedimurphy/blog-api/internal/model/memberships"
 )
 
 type membershipsRepository interface {

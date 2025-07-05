@@ -3,7 +3,7 @@ package posts
 import (
 	"net/http"
 
-	"github.com/dedimurphy/fast-campus/internal/model/posts"
+	"github.com/dedimurphy/blog-api/internal/model/posts"
 	"github.com/gin-gonic/gin"
 )
 

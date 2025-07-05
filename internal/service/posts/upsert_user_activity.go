@@ -8,7 +8,7 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/dedimurphy/fast-campus/internal/model/posts"
+	"github.com/dedimurphy/blog-api/internal/model/posts"
 )
 
 func (s *service) UpsertUpdateUserActivity(ctx context.Context, postID, userID int64, request posts.UserActivityRequest) error {

@@ -3,14 +3,14 @@ package main
 import (
 	"log"
 
-	"github.com/dedimurphy/fast-campus/internal/configs"
-	"github.com/dedimurphy/fast-campus/internal/handlers/memberships"
-  "github.com/dedimurphy/fast-campus/internal/handlers/posts"
-	membershipsRepo "github.com/dedimurphy/fast-campus/internal/repository/memberships"
-	membershipsSvc "github.com/dedimurphy/fast-campus/internal/service/memberships"
-  postSvc "github.com/dedimurphy/fast-campus/internal/service/posts"
-  postRepo "github.com/dedimurphy/fast-campus/internal/repository/posts"
-	"github.com/dedimurphy/fast-campus/pkg/internalsql"
+	"github.com/dedimurphy/blog-api/internal/configs"
+	"github.com/dedimurphy/blog-api/internal/handlers/memberships"
+  "github.com/dedimurphy/blog-api/internal/handlers/posts"
+	membershipsRepo "github.com/dedimurphy/blog-api/internal/repository/memberships"
+	membershipsSvc "github.com/dedimurphy/blog-api/internal/service/memberships"
+  postSvc "github.com/dedimurphy/blog-api/internal/service/posts"
+  postRepo "github.com/dedimurphy/blog-api/internal/repository/posts"
+	"github.com/dedimurphy/blog-api/pkg/internalsql"
 	"github.com/gin-gonic/gin"
 )
 

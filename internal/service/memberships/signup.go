@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dedimurphy/fast-campus/internal/model/memberships"
+	"github.com/dedimurphy/blog-api/internal/model/memberships"
 	"golang.org/x/crypto/bcrypt"
 )
 

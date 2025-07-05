@@ -3,7 +3,7 @@ package posts
 import (
 	"context"
 	"github.com/rs/zerolog/log"
-	"github.com/dedimurphy/fast-campus/internal/model/posts"
+	"github.com/dedimurphy/blog-api/internal/model/posts"
 )
 
 func (s *service) GetAllPost(ctx context.Context, pageSize, pageIndex int) (posts.GetAllPostResponse, error) {

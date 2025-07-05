@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/dedimurphy/fast-campus/internal/model/memberships"
+	"github.com/dedimurphy/blog-api/internal/model/memberships"
 )
 
 func (r *repository) InsertRefreshToken(ctx context.Context, model memberships.RefreshTokenModel) error {

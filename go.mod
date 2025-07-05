@@ -1,4 +1,4 @@
-module github.com/dedimurphy/fast-campus
+module github.com/dedimurphy/blog-api
 
 go 1.23.2
 

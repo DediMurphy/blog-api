@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/dedimurphy/fast-campus/internal/model/posts"
+	"github.com/dedimurphy/blog-api/internal/model/posts"
 )
 
 func (r *repository) GetUserActivity(ctx context.Context, model posts.UserActivityModel) (*posts.UserActivityModel, error)  {

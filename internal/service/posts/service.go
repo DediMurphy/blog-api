@@ -3,8 +3,8 @@ package posts
 import (
 	"context"
 
-	"github.com/dedimurphy/fast-campus/internal/configs"
-	"github.com/dedimurphy/fast-campus/internal/model/posts"
+	"github.com/dedimurphy/blog-api/internal/configs"
+	"github.com/dedimurphy/blog-api/internal/model/posts"
 )
 
 type postsRepository interface {

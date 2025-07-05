@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/dedimurphy/fast-campus/internal/model/posts"
+	"github.com/dedimurphy/blog-api/internal/model/posts"
 )
 
 func (r *repository) CreatePost(ctx context.Context, model posts.PostModel) error {

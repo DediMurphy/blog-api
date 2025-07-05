@@ -9,9 +9,9 @@ import (
 	"github.com/rs/zerolog/log"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/dedimurphy/fast-campus/internal/model/memberships"
-	"github.com/dedimurphy/fast-campus/pkg/jwt"
-	tokenUtil "github.com/dedimurphy/fast-campus/pkg/token"
+	"github.com/dedimurphy/blog-api/internal/model/memberships"
+	"github.com/dedimurphy/blog-api/pkg/jwt"
+	tokenUtil "github.com/dedimurphy/blog-api/pkg/token"
 )
 
 func (s *service) Login(ctx context.Context, req memberships.LoginRequest) (string,string, error) {
