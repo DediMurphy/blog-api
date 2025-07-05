@@ -1,1 +1,1 @@
-# fast-campus
+# simple-api
