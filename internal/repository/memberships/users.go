@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/dedimurphy/fast-campus/internal/model/memberships"
+	"github.com/dedimurphy/blog-api/internal/model/memberships"
 )
 
 func (r *repository) GetUser(ctx context.Context, email, username string, userID int64) (*memberships.UserModel, error) {

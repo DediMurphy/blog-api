@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dedimurphy/fast-campus/internal/model/memberships"
-	"github.com/dedimurphy/fast-campus/pkg/jwt"
+	"github.com/dedimurphy/blog-api/internal/model/memberships"
+	"github.com/dedimurphy/blog-api/pkg/jwt"
 	"github.com/rs/zerolog/log"
 )
 

@@ -7,7 +7,7 @@ import (
 	"time"
 	"github.com/rs/zerolog/log"
 
-	"github.com/dedimurphy/fast-campus/internal/model/posts"
+	"github.com/dedimurphy/blog-api/internal/model/posts"
 )
 
 func (s *service) CreatePost(ctx context.Context, userId int64, req posts.CreatePostRequest) error {

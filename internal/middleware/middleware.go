@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dedimurphy/fast-campus/internal/configs"
-	"github.com/dedimurphy/fast-campus/pkg/jwt"
+	"github.com/dedimurphy/blog-api/internal/configs"
+	"github.com/dedimurphy/blog-api/pkg/jwt"
 	"github.com/gin-gonic/gin"
 )
 
