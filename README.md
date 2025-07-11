@@ -31,27 +31,28 @@ Blog API adalah sebuah RESTful API sederhana yang dibuat menggunakan bahasa pemr
 
 ## ⚙️ Instalasi
 
-1. **Clone repository**
 ```bash
+# 1. Clone repository
 git clone https://github.com/DediMurphy/blog-api.git
 cd blog-api
 
-2. **Inisialisasi module & install dependencies**
+# 2. Inisialisasi module & install dependencies
 go mod tidy
 
-3. **Atur konfigurasi**
-Edit file configs/config.yml sesuai dengan konfigurasi database lokalmu.
-app:
-  port: 8080
+# 3. Atur konfigurasi
+# Edit file configs/config.yml sesuai dengan konfigurasi database lokal kamu
+# Contoh:
+# 
+# app:
+#   port: 8080
+# database:
+#   host: localhost
+#   port: 3306
+#   user: root
+#   password: yourpassword
+#   name: blog_db
 
-database:
-  host: localhost
-  port: 3306
-  user: root
-  password: yourpassword
-  name: blog_db
-
-4. **Jalankan aplikasi**
+# 4. Jalankan aplikasi
 go run main.go
 
 👤 Author
