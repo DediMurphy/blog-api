@@ -1,6 +1,0 @@
-service:
-  port: ":9090"
-  secretJwt: "fastcampustest"
-
-database:
-  dataSourceName: "root:superSecretPassword@tcp(localhost:3306)/fastcampus?parseTime=true"
